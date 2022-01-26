@@ -1,0 +1,31 @@
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+}
+
+.mission {
+  background-color: #32d65b;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 20px;
+  width: 50%;
+}
+
+@media (max-width: 600px) {
+  .mission {
+    background-color: #32d65b;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 20px;
+    width: 80%;
+  }
+
+  .about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+  }
+}

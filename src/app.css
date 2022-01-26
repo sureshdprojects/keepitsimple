@@ -1,0 +1,15 @@
+.content-container {
+  margin: 0 3%;
+  margin-top: 88px;
+  padding: 1%;
+  padding-top: 10px;
+}
+
+@media (max-width: 600px) {
+  .content-container {
+    margin: 0 3%;
+    margin-top: 130px;
+    padding: 1%;
+    padding-top: 10px;
+  }
+}
